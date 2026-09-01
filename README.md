@@ -107,4 +107,4 @@ No HDL simulation or synthesis was rerun while assembling this repository. Origi
 
 The project demonstrates directed verification and coverage measurement. It does not include a complete AES implementation, formal equivalence results, a post-layout flow, or reusable synthesis constraints. Known testbench scheduling and reset-test issues are documented in the verification notes.
 
-Course project by **Omar Wattad and אחמד מוחסן**, as credited in the reports, for **Digital Design and Logic Synthesis (361.1.3611)**. The proprietary Artisan/TSMC cell-model file is an external dependency and is not redistributed in this package.
+Course project by **Omar Wattad and Ahmad Mohsen**, as credited in the reports, for **Digital Design and Logic Synthesis (361.1.3611)**. The proprietary Artisan/TSMC cell-model file is an external dependency and is not redistributed in this package.
