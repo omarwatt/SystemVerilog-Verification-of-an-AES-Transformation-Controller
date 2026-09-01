@@ -1,0 +1,287 @@
+{
+  "final_source_stage": "part3",
+  "preserved_files": [
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "DDLS-part1.pdf",
+      "sha256": "7b1f44ead67ee455a2d4c24b35fde0aa028d7a340b8d0d00061aa6a7d42e9670",
+      "bytes": 849487,
+      "destination": "docs/reports/part1-rtl-design.pdf"
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "DUT/sbox.v",
+      "sha256": "ad11656e5f190754515e47be072ceeb057152dd4ecd639b089941d8eb01ce6ab",
+      "bytes": 5519,
+      "destination": "rtl/sbox.v"
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "DUT/subbytes.v",
+      "sha256": "b63a61b7b7fb7491988c2942a9905c17b539920387718ec319ebebf076f5e6cc",
+      "bytes": 196,
+      "destination": "rtl/subbytes.v"
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "README.txt",
+      "sha256": "f769caafe44223952e0fb3093c8cd98366e431c8b6c572d0eb1eff97c3a2004b",
+      "bytes": 1562,
+      "destination": "docs/original-readmes/part1.txt"
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "TB outputs/Mixclomuns_output_waveform.png",
+      "sha256": "424c67d10280dd585828db2e1912145a368fc749a58b432e09a464e696c209f4",
+      "bytes": 101363,
+      "destination": "results/part1/Mixclomuns_output_waveform.png"
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "TB outputs/Mixcolumns_monitor_output.png",
+      "sha256": "ec6e3ac69eaae164f20c32b33f5349f2a16064c7c1d8f8754da8b5578465b79b",
+      "bytes": 94280,
+      "destination": "results/part1/Mixcolumns_monitor_output.png"
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "TB outputs/fsm_monitor_output.png",
+      "sha256": "2fa274c95f13fb2168b421f01450e7d1d4c24e9a6cf2765f9d6325bb6dd83908",
+      "bytes": 289609,
+      "destination": "results/part1/fsm_monitor_output.png"
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "TB outputs/fsm_output_waveform.png",
+      "sha256": "3fae7eb01e3be6a4892ba53f60b535fb9ed98681d3a3066cc171496b3af0102f",
+      "bytes": 110849,
+      "destination": "results/part1/fsm_output_waveform.png"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "DDLS_part2.pdf",
+      "sha256": "e196dee69b8b3ab6f38e103489c2751ac6360723888ba8e42908aafac763d0ab",
+      "bytes": 1091884,
+      "destination": "docs/reports/part2-systemverilog-verification.pdf"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "DUT/fsm.v",
+      "sha256": "b9e736551f2721177db7c10ea9e9c72f3a44ce57f8ae2a923ee0bbe36c0ae762",
+      "bytes": 2619,
+      "destination": "rtl/fsm.v"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "DUT/mix_coloumns.v",
+      "sha256": "fa3db7945d335b71fab0d8fb4236712ce758e1dd4349599e40e4e2e8d0112690",
+      "bytes": 1062,
+      "destination": "rtl/mix_coloumns.v"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "DUT/sbox.v",
+      "sha256": "ad11656e5f190754515e47be072ceeb057152dd4ecd639b089941d8eb01ce6ab",
+      "bytes": 5519,
+      "destination": "rtl/sbox.v"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "DUT/subbytes.v",
+      "sha256": "b63a61b7b7fb7491988c2942a9905c17b539920387718ec319ebebf076f5e6cc",
+      "bytes": 196,
+      "destination": "rtl/subbytes.v"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "README.txt",
+      "sha256": "93077bf9a292a2ea22053d20168467b3f6c8936c48ab202c1dd352a254f65883",
+      "bytes": 1201,
+      "destination": "docs/original-readmes/part2.txt"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "TB (sv verification)/sv_tb.sv",
+      "sha256": "eb3366d33a2da618fd6b76a2ad6d7910fc9978b4270cd11184a5bf27e2109612",
+      "bytes": 7198,
+      "destination": "tb/sv_tb.sv"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "TB outputs/TB_console_outputs.png",
+      "sha256": "f1a929df7369e868b091b2e15be029f3e74ad48f6c0d859b96d97c2be4314032",
+      "bytes": 140425,
+      "destination": "results/part2/TB_console_outputs.png"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "TB outputs/coverage_report_fsm.txt",
+      "sha256": "a021762d43f78a8ef6db875fe00c5a3202d95a6892d3c0cb37cbfa3cc4590ef0",
+      "bytes": 26224,
+      "destination": "results/part2/coverage_report_fsm.txt"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "TB outputs/list2.do",
+      "sha256": "1a758a06ebd369378c2b4fcac7a84b0c873f44108cda2e78d080ce8445a189d6",
+      "bytes": 449,
+      "destination": "results/part2/list2.do"
+    },
+    {
+      "stage": "part2",
+      "archive": "part2(1).rar",
+      "source": "TB outputs/wave2.do",
+      "sha256": "ab19758dde65fede203981b82acf9aea1383155d809a8b3600fad5b75bc1b735",
+      "bytes": 910,
+      "destination": "results/part2/wave2.do"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "DDLS_part3.pdf",
+      "sha256": "d9defc0312d397fafad3ff9d9a35a93e750be1c8f706e38ebdf263d456d254da",
+      "bytes": 1347114,
+      "destination": "docs/reports/part3-clock-gating-synthesis.pdf"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "DUT/fsm.v",
+      "sha256": "b9e736551f2721177db7c10ea9e9c72f3a44ce57f8ae2a923ee0bbe36c0ae762",
+      "bytes": 2619,
+      "destination": "rtl/fsm.v"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "DUT/fsm_gate.v",
+      "sha256": "8b0840d8b838dd817355c95733c9b9d641b12cab20240f46336f8470109f9955",
+      "bytes": 48343,
+      "destination": "netlist/fsm_gate.v"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "DUT/mix_coloumns.v",
+      "sha256": "fa3db7945d335b71fab0d8fb4236712ce758e1dd4349599e40e4e2e8d0112690",
+      "bytes": 1062,
+      "destination": "rtl/mix_coloumns.v"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "DUT/sbox.v",
+      "sha256": "ad11656e5f190754515e47be072ceeb057152dd4ecd639b089941d8eb01ce6ab",
+      "bytes": 5519,
+      "destination": "rtl/sbox.v"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "DUT/subbytes.v",
+      "sha256": "b63a61b7b7fb7491988c2942a9905c17b539920387718ec319ebebf076f5e6cc",
+      "bytes": 196,
+      "destination": "rtl/subbytes.v"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "README.txt",
+      "sha256": "b8548c4b5d19828d2ed6cdf832a8f06274c2a0a4f56cec7b28f6f9533c035348",
+      "bytes": 1515,
+      "destination": "docs/original-readmes/part3.txt"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "TB (sv verification)/sv_tb.sv",
+      "sha256": "eb3366d33a2da618fd6b76a2ad6d7910fc9978b4270cd11184a5bf27e2109612",
+      "bytes": 7198,
+      "destination": "tb/sv_tb.sv"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "TB outputs/TB_console_outputs.png",
+      "sha256": "f1a929df7369e868b091b2e15be029f3e74ad48f6c0d859b96d97c2be4314032",
+      "bytes": 140425,
+      "destination": "results/part3/TB_console_outputs.png"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "TB outputs/list3.do",
+      "sha256": "1a758a06ebd369378c2b4fcac7a84b0c873f44108cda2e78d080ce8445a189d6",
+      "bytes": 449,
+      "destination": "results/part3/list3.do"
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "TB outputs/wave3.do",
+      "sha256": "ab19758dde65fede203981b82acf9aea1383155d809a8b3600fad5b75bc1b735",
+      "bytes": 910,
+      "destination": "results/part3/wave3.do"
+    }
+  ],
+  "omitted_files": [
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "DUT/fsm.v",
+      "sha256": "847581c956683a3d14541e3bb76f323e8c0efbfcbc285670f8731761c31b6f26",
+      "bytes": 2655,
+      "reason": "Earlier RTL copy omitted; only final Part 3 RTL is retained."
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "DUT/mix_coloumns.v",
+      "sha256": "3a16dcef12a0ff464684bd951cb6e38c98687703ec66cab5da2ca4c6450d6f90",
+      "bytes": 1060,
+      "reason": "Earlier RTL copy omitted; only final Part 3 RTL is retained."
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "TB/fsm_tb.v",
+      "sha256": "2635d3e231a8538b038209d753164aef163909b49e82e48534eae9d12b18d660",
+      "bytes": 2002,
+      "reason": "Earlier testbench omitted; the final SystemVerilog bench is the sole active testbench."
+    },
+    {
+      "stage": "part1",
+      "archive": "part1(1).rar",
+      "source": "TB/mix_coloumns_tb.v",
+      "sha256": "616908bdeadef0026ca850a8b1d03bbf6a8d2f817e666b3eaddb102d5e6cd3d9",
+      "bytes": 564,
+      "reason": "Earlier testbench omitted; the final SystemVerilog bench is the sole active testbench."
+    },
+    {
+      "stage": "part3",
+      "archive": "part3(1).rar",
+      "source": "DUT/slow.v",
+      "sha256": "444f5c39d35e90581d5d28da4bfc412d9bb725b36db1fc897fdbfcf524e0ba00",
+      "bytes": 848546,
+      "reason": "Proprietary external cell-model dependency; use a licensed local copy."
+    }
+  ]
+}

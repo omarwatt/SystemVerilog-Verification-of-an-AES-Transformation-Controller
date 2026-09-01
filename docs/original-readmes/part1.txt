@@ -1,0 +1,17 @@
+DUT folder:
+	1) fsm.v – Controls the AES round sequence. Handles start, moves through the SubBytes and MixColumns stages, and asserts done at the end.
+	2) subbytes.v – Performs the SubBytes step by applying the S-Box to all 16 bytes of the 128-bit state.
+	3) sbox.v – The lookup table used by SubBytes. Maps each 8-bit input to its substituted 8-bit output.
+	4) mix_coloumns.v – Implements the MixColumns operation on the 128-bit state. Processes each column independently and outputs the mixed result.
+
+TB folder:
+	1) fsm_tb.v – Testbench for fsm.v, Drives clk, start, and observes done and the internal data flow to confirm correct FSM state transitions.
+	2) mix_coloumns_tb.v – Testbench for mix_coloumns.v, Applies example 128-bit inputs and checks that each column is mixed correctly according to the AES MixColumns rules.
+
+TB output:
+	1) fsm_monitor_output.png – Console output showing the sequence of start, s, data_in, data_out, and the correctness checks for SubBytes-only mode, Chain mode, and timeout behavior.
+	2) fsm_output_waveform.png – Waveform image showing the transitions of clk, start, s, data_in, data_out, and done during simulation.
+	3) Mixcolomns_monitor_output.png – Console output showing MixColumns test vectors and their expected outputs.
+	4) Mixcolomns_output_waveform.png – Waveform image showing in and out signals of the MixColumns module.
+
+DDLS-part1.pdf - The project report describing the system operation, RTL structure, FSM behavior, SubBytes and MixColumns design, and simulation results.

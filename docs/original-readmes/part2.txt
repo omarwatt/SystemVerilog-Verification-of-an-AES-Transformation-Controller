@@ -1,0 +1,16 @@
+DUT folder:
+	1) fsm.v – Controls the AES round sequence. Handles start, moves through the SubBytes and MixColumns stages, and asserts done at the end.
+	2) subbytes.v – Performs the SubBytes step by applying the S-Box to all 16 bytes of the 128-bit state.
+	3) sbox.v – The lookup table used by SubBytes. Maps each 8-bit input to its substituted 8-bit output.
+	4) mix_coloumns.v – Implements the MixColumns operation on the 128-bit state. Processes each column independently and outputs the mixed result.
+
+TB (sv verification) folder:
+	1) sv_tb.sv - A SystemVerilog testbench for simulating and verifying the FSM (Finite State Machine) design.
+
+TB outputs folder:
+	1) list2.do - ModelSim DO file to list and monitor FSM signals in the console.
+	2) TB_console_outputs.png - Screenshot of ModelSim console showing all FSM tests passed.
+	3) wave2.do - ModelSim DO file to display FSM signals in the waveform viewer.
+	4) coverage_report_fsm.txt - A simulation coverage report showing how thoroughly fsm.v and its testbench sv_tb.sv were exercised.
+
+DDLS-part2.pdf - Project report detailing RTL design, FSM states, and testbench verification for AES-based encryption logic in hardware
